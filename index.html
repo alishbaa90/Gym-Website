@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div  id="main-screen">
+    <div class="home" id="home">
+    <nav>
+        <img src="images/logo.png">
+        <h1 class="logo">
+            <span class="larger-f">F</span>IT
+            <span class="larger-f">F</span>USION
+        </h1>
+        <div class="navbar">
+            <ul id="sideMenu">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+            <li><a href="#membership">MEMBERSHIP</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+          <!--  <i id="ts" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i id="bs" class="fa-solid fa-bars" onclick="openmenu()"></i>-->
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+            <h1>TRAIN <span style="color: #4ba397">INSANE</span> <br> OR <br> REMAIN THE SAME!</h1>
+      
+            <img src="images/fit3.png">
+    </div>
+
+    <div class="about" id="about">
+       <img id="gym1" src="images/gym4.png">
+       <img id="gym2" src="images/gym3.png">
+       <div class="content-wrapper">
+       <div class="box">
+        <h1>ABOUT US</h1>
+       <p>Welcome to Fit Fusion, where fitness meets passion! At Fit Fusion, we believe that a healthy body leads to a happy mind, and we are dedicated to helping you achieve both. Our gym is more than just a place to work out; it's a community of like-minded individuals who are committed to leading a healthier, more active lifestyle.</p>
+       </div>
+       <div class="box2">
+        <h1>OUR MISSION</h1>
+        <p>Our mission is simple: to inspire and empower individuals to reach their fitness goals. Whether you're just starting your fitness journey or you're a seasoned athlete, we have something for everyone. Our team of experienced trainers is here to guide you, motivate you, and support you every step of the way.</p>
+       </div>
+       <button id="class">CLASSES</button>
+       <button id="train">TRAINERS</button>
+    </div>
+    </div>
+
+    <div class="member" id="membership">
+        <div class="card" id="card1">
+            <h1>MONTHLY</h1>
+            <p>RS <span>25,000</span></p>
+            <ul>
+                <li><img src="images/tick.png">All Day with Free Training</li>
+                <li><img src="images/tick.png">Free Restroom</li>
+                <li><img src="images/tick.png">24/7 Skilled Support</li>
+                <li><img src="images/tick.png"> 10 Days Freezing Option</li>
+                <li><img src="images/tick.png">Freezing Option only applicable on regular packages</li>
+                </li>
+            </ul>
+            <button id="bp">BUY PLAN</button>
+            </div>
+        <div class="card" id="card2">
+            <h1>QUARTERLY</h1>
+            <p>RS <span>75,000</span></p>
+            <ul>
+                <li><img src="images/tick.png">All Day with Free Training</li>
+                <li><img src="images/tick.png">Free Restroom</li>
+                <li><img src="images/tick.png">24/7 Skilled Support</li>
+                <li><img src="images/tick.png"> 20 Days Freezing Option</li>
+                <li><img src="images/tick.png">Freezing Option only applicable on regular packages</li>
+                </li>
+                <button id="bp">BUY PLAN</button>
+
+            </ul>
+        </div>
+        <div class="card" id="card3">
+            <h1>YEARLY</h1>
+            <p>RS <span>220,000</span></p>
+            <ul>
+                <li><img src="images/tick.png">All Day with Free Training</li>
+                <li><img src="images/tick.png">Free Restroom</li>
+                <li><img src="images/tick.png">24/7 Skilled Support</li>
+                <li><img src="images/tick.png"> 40 Days Freezing Option</li>
+                <li><img src="images/tick.png">Freezing Option only applicable on regular packages</li>
+                </li>
+            </ul>
+            <button id="bp">BUY PLAN</button>
+
+        </div>
+    </div>
+
+   <div class="contact" id="contact">
+        <h1>FEEL FREE TO CONTACT US!</h1>
+        <div class="contact-form">
+            <form name ="submit-to-google-sheet" action="#">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="phone" name="phone" placeholder="Your Phone" required>
+                <textarea class="msg" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>90 West 14th Street<br>
+        New York, NY 10011</p>
+        </div>
+        <div class="mail">
+        <i class="fas fa-envelope"></i>
+        <p>fitfusion@gmail.com</p>
+        </div>
+        <div class="phone">
+        <i class="fas fa-phone-alt"></i>
+        <p>(212) 555-4678</p>
+        </div>
+    </div>
+    </div>
+
+
+    <div id="new-screen" class="hidden">
+        <div class="home" id="home">
+            <nav>
+                <img src="images/logo.png">
+                <h1 class="logo">
+                    <span class="larger-f">F</span>IT
+                    <span class="larger-f">F</span>USION
+                </h1>
+                <div class="navbar">
+                    <ul id="sideMenu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#membership">MEMBERSHIP</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <i id="ts" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i id="bs" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+                
+            </nav>
+    </div>
+        <div class="trainer" id="trainers">
+            <h1>MEET OUR TEAM</h1>
+
+        <div class="cards" id="c1">
+            <img src="images/t1.png" id="img">
+            <h3 id="heading">Shaun Stafford</h3>
+            <div class="info" id="info">
+                <p id="para">Shaun Stafford, armed with a Masters degree in strength and conditioning from Oxford University, is regarded as one of the best personal trainers in the world. He started his career as a semi-professional rugby player before transitioning to bodybuilding and becoming a 2X WBFF World Fitness Champion.</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/shaunstafford/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/shaunstaffordfitness/" target="_blank">
+                        <i class="fab fa-facebook" id="fb"></i>
+                        </a>
+                 <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="c2">
+            <img src="images/t2 (1).png" id="img">
+            <h3 id="heading">Tracy Anderson</h3>
+           
+            <div class="info" id="info">
+                <p id="para">Tracy Anderson is a well-known name in the fitness industry. She gained recognition for her unique fitness approach "The Tracy Anderson Method", which includes Pilates inspired workouts, high repetition, and targeted muscle training. She also invented the exercise machine popularly known as the hybrid body reformer.</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/tracyandersonmethod/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/TracyAndersonMethod" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="c3">
+            <img src="images/t3.png" id="img">
+            <h3 id="heading">Sarah Lindsay</h3>
+            <div class="info" id="info">
+                <p id="para">Sarah Lindsay is a three-time Olympian and 10-time British speed skating champion specialising in total body transformations. Sarah works alongside her clients in her gym using a combination of fun and dedicated training regimes. Besides this, she focuses on muscle building and fat loss using nutrition and resistance training.</p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/roarfitnessgirl/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/p/roarfitnessgirl" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="c4">
+            <img src="images/t4.png" id="img">
+            <h3 id="heaind">Nick Mitchell</h3>
+            <div class="info" id="info">
+                <p id="para">Nick Mitchell is not just a personal trainer; he is a best-selling author and the founder of Ultimate Performance (UP). Although Nick Mitchell didnt start his career as a personal trainer, his over a decade of success in the industry puts him ahead of the rest.
+           
+                </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/heynickmitchell/" target="_blank">
+                        <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/nickmitchellupfitness/" target="_blank">
+                        <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@shaunstaf/" target="_blank"> 
+                        <i class="fab fa-youtube" id="yt"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="cards" id="c5">
+            <img src="images/t5.png" id="img">
+            <h3 id="heaind">Matt Roberts</h3>
+            <div class="info" id="info">
+                <p id="para">
+                    With over 25 years in the industry, Matt Roberts has established himself as a veteran in the fitness industry. Every client in this facility goes through physical fitness testing, 3D body shape and composition analysis, Styku laser scan, detailed blood profiling, hormone exploration, and complete dietary evaluation to ensure they set adequate goals and clear timelines.
+
+                </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/mattroberts_lifestyle/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/mattrobertsPT/" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="c6">
+            <img src="images/t6.png" id="img">
+            <h3 id="heading">Alexia Clark</h3>
+            <div class="info" id="info">
+                <p id="para">
+                    Alexia Clark is a certified personal trainer and fitness nutrition specialist with nearly 10 years of experience training clients to reach their fitness goals. Her program provides clients with new workouts daily to keep them motivated to reach their goals. Alongside workouts, Alexia also provides nutrition support and direct accountability to clients.
+            
+                </p>  
+                <div class="icons">
+                    <a href="https://www.instagram.com/alexia_clark/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/alexiafitness1/" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>      
+            </div>
+        </div>
+        <div class="cards" id="c7">
+            <img src="images/t7.png" id="img">
+            <h3 id="heading">Tyrone Brennand</h3>
+            <div class="info" id="info">
+                <p id="para">
+                    Tyrone Brennand is a popular personal trainer, author, and founder of "Be The Fittest", also known as the leading fitness resource all through London. With nearly two decades in the industry, he has gained extensive experience in the health and fitness space to help thousands of people. Plus, he specialises in strength toning, fat loss, yoga, and toning.
+                </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/bethefittest/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/Bethefittest" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="c8">
+            <img src="images/t8.png" id="img">
+            <h3 id="heading">Louise Parker</h3>
+            <div id="info" class="info">
+                <p id="para">
+                    With over 20 years in the fitness industry, Louise Parker has been transforming the lives of her clients. Louise uses nurturing to help her clients instead of punishment because she understands the struggles associated with weight loss. Besides, Louise has helped over 20,000 clients across 50 countries transform their lives.
+                
+                </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/louiseparkermethod/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/theparkerpractice/" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+        <div class="cards" id="c9">
+            <img src="images/t9.png" id="img">
+            <h3 id="heading">Brad Schoenfeld</h3>
+            <div class="info" id="info">
+                <p id="para">
+                    Brad Schoenfeld is a renowned name in the fitness industry. As a professor of exercise science at Lehman College and author, he made a name for himself with his research in human performance, muscle hypertrophy, and exercise physiology. Besides, he has published over 300 peer-reviewed research articles on sports nutrition and exercise.
+                </p>
+                <div class="icons">
+                    <a href="https://www.instagram.com/bradschoenfeldphd/" target="_blank">
+                    <i class="fab fa-instagram" id="insta"></i>
+                    </a>
+                    <a href="https://www.facebook.com/brad.schoenfeld.cscs/" target="_blank">
+                    <i class="fab fa-facebook" id="fb"></i>
+                    </a>
+                    <i class="fab fa-youtube" id="yt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="new-screen2" class="hidden">
+        <div class="home" id="home">
+            <nav>
+                <img src="images/logo.png">
+                <h1 class="logo">
+                    <span class="larger-f">F</span>IT
+                    <span class="larger-f">F</span>USION
+                </h1>
+                <div class="navbar">
+                    <ul id="sideMenu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#membership">MEMBERSHIP</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <i id="ts" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i id="bs" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+    </div>    
+        <div id="classes">
+        <h1>OUR CLASSES</h1>
+        <div class="boxes" id="b1">
+            <div id="infoo" class="infoo">
+                <h2>BODY BLITZ</h2>
+                <p>
+                    Achieve your fitness goals with high-intensity interval training (HIIT) that combines cardio and strength exercises. Burn calories, build muscle, and get fitter in each session.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Fat loss, strength building, and overall fitness.</p>
+                </div>
+        </div>
+        <div class="boxes" id="b2">
+            <div id="infoo" class="infoo">
+                <h2>METABOLIC BURN</h2>
+                <p>
+                    A dynamic workout designed to maximize calorie burn and boost your metabolism. This class incorporates a mix of cardio, strength training, and functional exercises.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Metabolism boost, fat loss, and toning.</p>
+                </div>
+        </div>
+        <div class="boxes" id="b3">
+            <div id="infoo" class="infoo">
+                <h2>POWER SCULPT</h2>
+                <p>
+                    Sculpt and tone your body with a powerful workout that combines resistance training and high-intensity cardio. Perfect for those looking to burn fat and build lean muscle.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Muscle toning, fat loss, and strength building.</p>
+                </div>
+        </div>
+        <div class="boxes" id="b4">
+            <div id="infoo" class="infoo">
+                <h2>TURBO BURN</h2>
+                <p>
+                    An explosive workout that blends cardio and strength exercises to ignite your metabolism and torch calories. Get ready for a high-energy class that delivers results.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Fat burning, endurance, and muscle conditioning.</p>
+                </div>
+        </div>
+        <div class="boxes" id="b5">
+            <div id="infoo" class="infoo">
+                <h2>SCULPT & SHRED</h2>
+                <p>
+                    A total-body workout that combines strength training and intense cardio intervals. Designed to help you shed fat, build strength, and improve overall fitness.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Fat loss, muscle building, and cardiovascular health.</p>
+                </div>
+        </div>
+        <div class="boxes" id="b6">
+            <div id="infoo" class="infoo">
+                <h2>EXTREME BURN</h2>
+                <p>
+                    Push your limits with this high-intensity workout that focuses on burning fat and increasing strength. Features a combination of challenging exercises and circuits.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Fat burning, endurance, and strength.</p>
+                </div>
+        </div>
+        <div class="boxes" id="b7">
+            <div id="infoo" class="infoo">
+                <h2>LEAN AND MEAN</h2>
+                <p>
+                    A high-energy class that combines cardio, strength, and core exercises to help you achieve a leaner physique. Designed to burn fat and improve fitness.</p>
+                    <h3>Focus:</h3>
+                    <p id="sec">Fat loss, core strengthening, and overall conditioning.</p>
+                </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
